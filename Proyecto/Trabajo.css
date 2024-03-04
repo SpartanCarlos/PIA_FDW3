@@ -1,0 +1,19 @@
+body{
+    background-color: silver;
+    font-family: cursive;
+}
+
+h1{
+    text-align: center;
+    color: snow;
+}
+
+table{
+    text-align: center;
+}
+
+table th{
+    background-color:black;
+    color:#ffe100;
+    border:9px;
+}

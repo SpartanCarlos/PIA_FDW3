@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAMILIA </title>
+    <!--En esta parte el link se vincula con el CSS -->
+    <link rel="stylesheet" href="Familia.css">
+</head>
+<body>
+    <!--En esta parte se hace un enlace a la Pagina Principal para que el usuario pueda regresar a HOME-->
+    <header>
+        <nav>
+            <li>
+                <a href="Index.html">Regresar a Pagina Principal</a> 
+            </li>
+        </nav>
+    </header>
+    <!--Esta es el Encabezado-->
+    <h1>INTEGRANTES DE LA FAMILIA </h1>
+    <!--Aqui se realiza una tabla para insertar las descripcion y imagenes de la familia -->
+    <table border="9">
+          <tr>
+            <!---Aqui se genera un reglon y un encabezado para la tabla  -->
+              <th>Miembros </th>
+              <th>Datos Generales</th>
+              <th>Rol</th>
+          </tr>
+          <!--En esta parte se ingresa un reglon y columnas dentro de las columnas se insertara las imagenes, dentro de una -->
+          <!--columna se genera una lista con la descripciones de los miembros de la familia y se modifica la imagenes -->
+          <tr>
+            <td> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgFcyQOeUPM0ezxM0ExnBORqX4BP4EnjYWRg&s" height="150" width="220"></td>           
+                 <td>
+                    <ul>
+                        <li>Jesus Gutierrez Gutierrez Silva</li>
+                        <li>31 de Julio de 1962</li>
+                    </ul>
+                 </td>
+                 <td>Padre</td>
+          </tr>
+
+          <tr>
+            <th> <img src="https://zubietxe.org/wp-content/uploads/2022/05/Ser-madre.jpg" height="150" width="220"></th>
+            <td>
+                <ul>
+                    <li>Emperatriz Zenaida Cerda Sanchez</li>
+                    <li>18 de Diciembre de 1963</li>
+                </ul>
+            </td>
+            <td>Madre</td>
+          </tr>
+
+          <tr>
+            <th><img src="https://www.educapeques.com/wp-content/uploads/2013/06/shutterstock_433893464.jpg.webp" height="150" width="220"></th>
+             <td>
+                <ul>
+                    <li>Erika Guadalupe Gutierrez Cerda </li>
+                    <li>11 de Noviembre de 1987</li>
+                </ul>
+             </td>
+            <td>Hermana Mayor</td>
+          </tr>
+
+          <tr>
+            <th><img src="https://www.criarconsentidocomun.com/wp-content/uploads/2023/07/tios-solteros-relacion-sobrinos-hijos-5-768x513.jpg" height="150" width="220"></th>
+            <td>
+                <ul>
+                    <li>Scarlett Gutierrez Cerda</li>
+                    <li>2 de Julio del 2004</li>
+                </ul>
+            </td>
+            <td>Sobrina</td>
+          </tr>
+    </table>
+    <!--Despues de terminar la Seccion de la familia, se hace un separado(pre) para hacer un espacio, donde haremos un mini formulario  -->
+    <!--con la funcion form, generaremos una etiqueta(label) para estructurar el formulario y con la funcion input se podra ingresar o -->
+    <!--presionar esta funcion-->
+    <pre></pre>
+
+    <div border="4">
+        <h1>FORMULARIO</h1>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="nombre">
+
+            <label for="pname">Primer Apellido:</label>
+            <input type="text" id="pname" name="pname">
+
+            <label for="sname">Segundo Apellido:</label>
+            <input type="sname" id="sname" name="sname">
+
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input type="text" id="fecha" name="fecha">
+
+            <input type="submit" value="Agregar">
+        </form>
+    </div>
+</body>
+</html>

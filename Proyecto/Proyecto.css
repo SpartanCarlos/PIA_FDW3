@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: seashell;
+    font-family: cursive;
+}
+
+header{
+    background-color: rgba(0, 128, 0, 0.781);
+    text-align: center;
+}
+
+main{
+    background-color: rgba(0, 0, 255, 0.774);
+    text-align: center;
+}
+
+aside{
+    background-color: rgba(255, 166, 0, 0.696);
+    text-align: center;
+}
+
+footer{
+    background-color: rgba(165, 42, 42, 0.81);
+    text-align: center;
+}
+
+
+#Proyecto{
+    display: grid;
+    grid-template-columns: 5fr 1fr ;
+    grid-template-areas:"h  a"
+                        "m  a"
+                        "f  a";
+    gap:10px
+}
+
+#Proyecto header{
+    grid-area:h;
+}
+
+#Proyecto main{
+    grid-area: m;
+}
+
+#Proyecto aside{
+    grid-area: a;
+}
+
+#Proyecto footer{
+    grid-area: f;
+}

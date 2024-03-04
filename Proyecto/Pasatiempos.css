@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(215, 106, 28);
+    font-family: cursive;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    border:10px;
+    text-align: center;
+    color:black;
+    background-color:brown;
+}
+
+table th {
+    background-color: black;
+    color: white;
+}
+
+table td{
+    color:white
+}

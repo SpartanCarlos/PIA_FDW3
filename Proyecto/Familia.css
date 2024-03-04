@@ -1,0 +1,52 @@
+table tr {
+    background-color: black;
+    color:white;
+    border: 12px;
+    
+}
+
+table td{
+    color:yellow
+}
+
+body{
+    background-color:gold;
+    font-family: cursive
+}
+
+h1{
+    text-align: center;
+}
+
+td{
+    text-align: center; 
+}
+
+th{
+   background-color:rgba(0, 0, 0, 0.148);
+}
+
+div{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  
+}
+
+form{
+    margin: 0%;
+    width: 180px;
+    padding: 6px;
+    border: 6px ;
+    border: 6px;
+}
+
+input{
+    width: 100;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
